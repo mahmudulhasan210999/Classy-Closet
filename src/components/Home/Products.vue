@@ -1,6 +1,6 @@
 <template>
     <div class="w-full flex flex-col px-40 py-10">
-        <p class="text-4xl text-left">Products</p>
+        <p class="text-4xl text-left">Products {{ products.length }}</p>
 
         <div class="grid grid-cols-3 gap-6 py-6">
             <div v-for="(product, index) in products" :key="index">
