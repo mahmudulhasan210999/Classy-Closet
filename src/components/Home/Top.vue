@@ -2,7 +2,7 @@
     <div class="w-full flex flex-col">
         <div class="top-banner">
             <div class="pt-60 px-52 text-left text-white">
-                <p class="text-5xl">This the journey of Love</p>
+                <p class="text-5xl">This is our Page</p>
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo, alias iusto! Doloribus debitis distinctio corporis facere aperiam repellat.</p>
             </div>
         </div>

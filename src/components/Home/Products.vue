@@ -1,34 +1,17 @@
 <template>
-    <div class="w-full flex flex-col px-40 py-10">
-        <p class="text-4xl text-left">Products {{ products.length }}</p>
-
-        <div class="grid grid-cols-3 gap-6 py-6">
-            <div v-for="(product, index) in products" :key="index">
-                <div class="border border-gray-300 rounded-lg">
-                    <img class="w-full h-52 rounded-t-lg" :src="product.img" alt="Image">
-                    <div class="p-4">
-                        <p class="text-xl">{{ product.name }}</p>
-                        <p class="font-semibold">Price {{ product.price }} BDT</p>
-                        <p class="text-justify">{{ product.details }}</p>
-                    </div>
-                </div>
-            </div>
+    <div class="w-full flex flex-col">
+        <div>
+            <Products />
         </div>
     </div>
 </template>
 
 <script>
-import { mapState } from 'vuex';
+import Products from '../../components/Products/Products.vue'
 
 export default {
-    data() {
-        return {}
-    },
-
-    computed: {
-        ...mapState({
-            products: state => state.products.products,
-        })
-    },
+    components: {
+        Products
+    }
 }
 </script>
