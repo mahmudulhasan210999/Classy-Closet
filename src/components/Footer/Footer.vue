@@ -88,7 +88,7 @@ export default {
 
 <style scoped>
 .options {
-  @apply text-gray-400 hover:text-gray-600 hover:cursor-pointer text-xs lg:text-sm px-3 lg:px-4 py-1 lg:py-2;
+  @apply text-gray-400 hover:text-gray-500 hover:cursor-pointer text-xs lg:text-sm px-3 lg:px-4 py-1 lg:py-2;
 }
 
 .tag-color {

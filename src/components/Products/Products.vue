@@ -10,7 +10,7 @@
                         <div class="p-4">
                             <p class="text-xl">{{ product.name }}</p>
                             <p class="font-semibold">Price {{ product.price }} BDT</p>
-                            <p class="text-justify">{{ product.details }}</p>
+                            <p class="text-justify">{{ product.details.substring(0,150) + "..." }}</p>
                         </div>
                     </router-link>
                 </div>

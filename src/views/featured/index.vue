@@ -1,8 +1,6 @@
 <template>
-    <div class="w-full flex flex-col">
-        <div>
-            <Featured />
-        </div>
+    <div>
+        <Featured />
     </div>
 </template>
 

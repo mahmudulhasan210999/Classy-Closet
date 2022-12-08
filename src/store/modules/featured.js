@@ -12,6 +12,7 @@ const state = {
             id: 1,
             img: f_img1,
             name: 'Featured-1',
+            slug: 'featured-1',
             price: 5000,
             details: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui, fuga mollitia delectus reprehenderit hic voluptatum ullam similique nobis, eum vel, praesentium voluptas commodi rem minus unde illum vitae cupiditate blanditiis!'
         },
@@ -19,6 +20,7 @@ const state = {
             id: 2,
             img: f_img2,
             name: 'Featured-2',
+            slug: 'featured-2',
             price: 6000,
             details: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui, fuga mollitia delectus reprehenderit hic voluptatum ullam similique nobis, eum vel, praesentium voluptas commodi rem minus unde illum vitae cupiditate blanditiis!'
         },
@@ -26,6 +28,7 @@ const state = {
             id: 3,
             img: f_img3,
             name: 'Featured-3',
+            slug: 'featured-3',
             price: 7000,
             details: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui, fuga mollitia delectus reprehenderit hic voluptatum ullam similique nobis, eum vel, praesentium voluptas commodi rem minus unde illum vitae cupiditate blanditiis!'
         },
@@ -33,6 +36,7 @@ const state = {
             id: 4,
             img: f_img4,
             name: 'Featured-4',
+            slug: 'featured-4',
             price: 8000,
             details: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui, fuga mollitia delectus reprehenderit hic voluptatum ullam similique nobis, eum vel, praesentium voluptas commodi rem minus unde illum vitae cupiditate blanditiis!'
         },
@@ -40,6 +44,7 @@ const state = {
             id: 5,
             img: f_img5,
             name: 'Featured-5',
+            slug: 'featured-5',
             price: 9000,
             details: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui, fuga mollitia delectus reprehenderit hic voluptatum ullam similique nobis, eum vel, praesentium voluptas commodi rem minus unde illum vitae cupiditate blanditiis!'
         },
@@ -47,6 +52,7 @@ const state = {
             id: 6,
             img: f_img6,
             name: 'Featured-6',
+            slug: 'featured-6',
             price: 5000,
             details: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui, fuga mollitia delectus reprehenderit hic voluptatum ullam similique nobis, eum vel, praesentium voluptas commodi rem minus unde illum vitae cupiditate blanditiis!'
         },
@@ -54,6 +60,7 @@ const state = {
             id: 7,
             img: f_img7,
             name: 'Featured-7',
+            slug: 'featured-7',
             price: 7000,
             details: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui, fuga mollitia delectus reprehenderit hic voluptatum ullam similique nobis, eum vel, praesentium voluptas commodi rem minus unde illum vitae cupiditate blanditiis!'
         },

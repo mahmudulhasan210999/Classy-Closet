@@ -1,21 +1,21 @@
 <template>
     <div>
         <Top />
-        <Product />
         <Featured />
+        <Product />
     </div>
 </template>
 
 <script>
 import Top from '../../components/Home/Top.vue'
-import Product from '../../components/Home/Products.vue'
 import Featured from '../../components/Home/Featured.vue'
+import Product from '../../components/Home/Products.vue'
 
 export default {
     components: {
         Top,
-        Product,
-        Featured
+        Featured,
+        Product
     }
 }
 </script>
