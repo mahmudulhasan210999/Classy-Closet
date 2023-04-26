@@ -14,7 +14,7 @@ const state = {
             name: 'Featured-1',
             slug: 'featured-1',
             price: 5000,
-            details: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui, fuga mollitia delectus reprehenderit hic voluptatum ullam similique nobis, eum vel, praesentium voluptas commodi rem minus unde illum vitae cupiditate blanditiis!'
+            details: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui, fuga mollitia delectus reprehenderit hic voluptatum ullam similique nobis, eum vel, praesentium voluptas commodi rem minus unde illum vitae cupiditate blanditiis! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui, fuga mollitia delectus reprehenderit hic voluptatum ullam similique nobis, eum vel, praesentium voluptas commodi rem minus unde illum vitae cupiditate blanditiis! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui, fuga mollitia delectus reprehenderit hic voluptatum ullam similique nobis, eum vel, praesentium voluptas commodi rem minus unde illum vitae cupiditate blanditiis!'
         },
         {
             id: 2,
@@ -22,7 +22,7 @@ const state = {
             name: 'Featured-2',
             slug: 'featured-2',
             price: 6000,
-            details: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui, fuga mollitia delectus reprehenderit hic voluptatum ullam similique nobis, eum vel, praesentium voluptas commodi rem minus unde illum vitae cupiditate blanditiis!'
+            details: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui, fuga mollitia delectus reprehenderit hic voluptatum ullam similique nobis, eum vel, praesentium voluptas commodi rem minus unde illum vitae cupiditate blanditiis! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui, fuga mollitia delectus reprehenderit hic voluptatum ullam similique nobis, eum vel, praesentium voluptas commodi rem minus unde illum vitae cupiditate blanditiis! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui, fuga mollitia delectus reprehenderit hic voluptatum ullam similique nobis, eum vel, praesentium voluptas commodi rem minus unde illum vitae cupiditate blanditiis!'
         },
         {
             id: 3,
@@ -30,7 +30,7 @@ const state = {
             name: 'Featured-3',
             slug: 'featured-3',
             price: 7000,
-            details: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui, fuga mollitia delectus reprehenderit hic voluptatum ullam similique nobis, eum vel, praesentium voluptas commodi rem minus unde illum vitae cupiditate blanditiis!'
+            details: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui, fuga mollitia delectus reprehenderit hic voluptatum ullam similique nobis, eum vel, praesentium voluptas commodi rem minus unde illum vitae cupiditate blanditiis! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui, fuga mollitia delectus reprehenderit hic voluptatum ullam similique nobis, eum vel, praesentium voluptas commodi rem minus unde illum vitae cupiditate blanditiis! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui, fuga mollitia delectus reprehenderit hic voluptatum ullam similique nobis, eum vel, praesentium voluptas commodi rem minus unde illum vitae cupiditate blanditiis!'
         },
         {
             id: 4,
@@ -38,7 +38,7 @@ const state = {
             name: 'Featured-4',
             slug: 'featured-4',
             price: 8000,
-            details: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui, fuga mollitia delectus reprehenderit hic voluptatum ullam similique nobis, eum vel, praesentium voluptas commodi rem minus unde illum vitae cupiditate blanditiis!'
+            details: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui, fuga mollitia delectus reprehenderit hic voluptatum ullam similique nobis, eum vel, praesentium voluptas commodi rem minus unde illum vitae cupiditate blanditiis! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui, fuga mollitia delectus reprehenderit hic voluptatum ullam similique nobis, eum vel, praesentium voluptas commodi rem minus unde illum vitae cupiditate blanditiis! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui, fuga mollitia delectus reprehenderit hic voluptatum ullam similique nobis, eum vel, praesentium voluptas commodi rem minus unde illum vitae cupiditate blanditiis!'
         },
         {
             id: 5,
@@ -46,7 +46,7 @@ const state = {
             name: 'Featured-5',
             slug: 'featured-5',
             price: 9000,
-            details: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui, fuga mollitia delectus reprehenderit hic voluptatum ullam similique nobis, eum vel, praesentium voluptas commodi rem minus unde illum vitae cupiditate blanditiis!'
+            details: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui, fuga mollitia delectus reprehenderit hic voluptatum ullam similique nobis, eum vel, praesentium voluptas commodi rem minus unde illum vitae cupiditate blanditiis! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui, fuga mollitia delectus reprehenderit hic voluptatum ullam similique nobis, eum vel, praesentium voluptas commodi rem minus unde illum vitae cupiditate blanditiis! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui, fuga mollitia delectus reprehenderit hic voluptatum ullam similique nobis, eum vel, praesentium voluptas commodi rem minus unde illum vitae cupiditate blanditiis!'
         },
         {
             id: 6,
@@ -54,7 +54,7 @@ const state = {
             name: 'Featured-6',
             slug: 'featured-6',
             price: 5000,
-            details: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui, fuga mollitia delectus reprehenderit hic voluptatum ullam similique nobis, eum vel, praesentium voluptas commodi rem minus unde illum vitae cupiditate blanditiis!'
+            details: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui, fuga mollitia delectus reprehenderit hic voluptatum ullam similique nobis, eum vel, praesentium voluptas commodi rem minus unde illum vitae cupiditate blanditiis! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui, fuga mollitia delectus reprehenderit hic voluptatum ullam similique nobis, eum vel, praesentium voluptas commodi rem minus unde illum vitae cupiditate blanditiis!'
         },
         {
             id: 7,
@@ -62,21 +62,19 @@ const state = {
             name: 'Featured-7',
             slug: 'featured-7',
             price: 7000,
-            details: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui, fuga mollitia delectus reprehenderit hic voluptatum ullam similique nobis, eum vel, praesentium voluptas commodi rem minus unde illum vitae cupiditate blanditiis!'
+            details: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui, fuga mollitia delectus reprehenderit hic voluptatum ullam similique nobis, eum vel, praesentium voluptas commodi rem minus unde illum vitae cupiditate blanditiis! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui, fuga mollitia delectus reprehenderit hic voluptatum ullam similique nobis, eum vel, praesentium voluptas commodi rem minus unde illum vitae cupiditate blanditiis! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui, fuga mollitia delectus reprehenderit hic voluptatum ullam similique nobis, eum vel, praesentium voluptas commodi rem minus unde illum vitae cupiditate blanditiis!'
         },
     ],
 }
 
 const getters = {}
-const actions = {
-}
-const mutations = {
-}
+const mutations = {}
+const actions = {}
 
 export default {
     namespaced: true,
     state,
-    actions,
+    getters,
     mutations,
-    getters
+    actions
 }

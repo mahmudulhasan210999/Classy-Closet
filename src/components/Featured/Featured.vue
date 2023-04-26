@@ -7,13 +7,12 @@
                 <template #item="slotProps">
                     <div class="border-2 m-4">
                         <router-link :to="{ path: '/featured-product-details/' + slotProps.data.slug }">
-                            <img class="w-full h-72" :src="slotProps.data.img" alt="Image">
+                            <img class="w-full h-96" :src="slotProps.data.img" alt="Image">
                         </router-link>
                         
                         <div class="border-t-2 p-4">
                             <p class="text-xl">{{ slotProps.data.name }}</p>
                             <p class="font-semibold">Price {{ slotProps.data.price }} BDT</p>
-                            <!-- <p class="text-justify">{{ slotProps.data.details }}</p> -->
                             <router-link :to="{ path: '/featured-product-details/' + slotProps.data.slug }">
                                 <button class="text-blue-500 hover:text-blue-800">Show Details</button>
                             </router-link>

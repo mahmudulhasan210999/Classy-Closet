@@ -1,15 +1,15 @@
 <template>
     <div class="w-full flex flex-col">
-        <div class="bg-gray-300 py-5 flex justify-between items-center px-20">
+        <div class="bg-gray-300 py-4 flex justify-between items-center px-20">
             <!-- Logo -->
             <div>
                 <router-link to="/">
-                    <img src="../../assets/logo/logo.png" alt="Logo">
+                    <img class="w-52" src="../../assets/logo/digitalocean.png" alt="Logo">
                 </router-link>
             </div>
 
             <!-- Options -->
-            <div class="flex justify-center">
+            <div class="flex justify-center items-center">
                 <router-link to="/">
                     <p class="pr-2 text-gray-600 hover:text-gray-800 font-semibold">Home</p>
                 </router-link>
@@ -23,7 +23,13 @@
                 </router-link>
 
                 <router-link to="/contact">
-                    <p class="pl-2 text-gray-600 hover:text-gray-800 font-semibold">Contact</p>
+                    <p class="px-2 text-gray-600 hover:text-gray-800 font-semibold">Contact</p>
+                </router-link>
+
+                <router-link to="/cart">
+                    <p class="pl-2 text-gray-600 hover:text-gray-800">
+                        <i class="pi pi-shopping-cart icon" style="font-size: 1.8rem;"></i>
+                    </p>
                 </router-link>
             </div>
         </div>

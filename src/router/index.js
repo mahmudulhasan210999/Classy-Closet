@@ -7,6 +7,8 @@ import ProductDetails from '../views/products/product_details/[id].vue'
 import Contact from '../views/contact/index.vue'
 import About from '../views/about/index.vue'
 
+import Cart from '../views/cart/index.vue'
+
 const routes = [
     {
         path: '/',
@@ -42,6 +44,11 @@ const routes = [
         path: '/about',
         name: 'About',
         component: About
+    },
+    {
+        path: '/cart',
+        name: 'Cart',
+        component: Cart
     }
 ]
 
