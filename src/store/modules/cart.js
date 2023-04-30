@@ -21,14 +21,11 @@ const actions = {
     addingToCart({commit}, payload) {
         let status = false
         let result= JSON.parse(localStorage.getItem("cart_items"));
-        // console.log(result.find(value=> value.id===payload.product.id))
-        // if(result.find(({ id }) => id === payload.product.id)) 
+        console.log(payload.product)
         if(result.find(({ id }) => id === payload.product.id)) {
             return status
         }
         else {
-            // payload.product.quantity = 1;
-            // console.log(payload.product.quantity)
             result.push(payload.product);
             localStorage.setItem("cart_items", JSON.stringify(result));
             status = true
@@ -38,9 +35,7 @@ const actions = {
 
     removeCartItem ({ commit, state, dispatch }, payload) {
         let result= JSON.parse(localStorage.getItem("cart_items"));
-
         let response=[]
-        
         result.forEach(element => {
             if(element.id!==payload.id){
                 response.push(element)
@@ -56,7 +51,6 @@ const actions = {
             const qty = state.cart[index].quantity + payload.qty
             if (qty !== 0) {
               state.cart[index].quantity = qty;
-            //   console.log(state.cart)
             }
           }
         })

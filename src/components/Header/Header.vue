@@ -4,7 +4,7 @@
             <!-- Logo -->
             <div>
                 <router-link to="/">
-                    <img class="w-52" src="../../assets/logo/digitalocean.png" alt="Logo">
+                    <img class="h-16 rounded-lg" src="../../assets/logo/logo.jpg" alt="Logo">
                 </router-link>
             </div>
 

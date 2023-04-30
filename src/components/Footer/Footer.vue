@@ -3,7 +3,7 @@
         <div class="bg-gray-800 flex flex-col items-center">
             <!-- Logo and lorem -->
             <div class="flex flex-col items-center my-4">
-                <router-link :to="{ path: '/' }"><img src="../../assets/logo/digitalocean.png" class="h-12 w-60 my-4" alt="logo" /></router-link>
+                <router-link :to="{ path: '/' }"><img src="../../assets/logo/logo.jpg" class="h-20 rounded-lg my-4" alt="logo" /></router-link>
                 <p class="text-xs sm:text-sm text-gray-400 my-2 px-10 md:px-24 lg:px-52">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
             </div>
             

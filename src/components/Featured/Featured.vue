@@ -59,6 +59,6 @@ export default {
         ...mapState({
             featured_products: state => state.featured.featured_products
         })
-    },
+    }
 }
 </script>

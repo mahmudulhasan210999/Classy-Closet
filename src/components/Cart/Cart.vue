@@ -1,8 +1,13 @@
 <template>
     <div class="w-full flex flex-col px-40 py-10">
-        <p class="text-4xl text-left">Cart</p>
-
+        <p class="text-4xl text-blue-500 text-left">Cart</p>
         <div>
+            <div v-if="cartItem.length == 0">
+                <p class="text-xl text-blue-500">Your cart is Empty!!</p>
+                <div class="flex justify-center">
+                    <img src="../../assets/logo/empty.jpg" class="h-96 my-4" alt="" />
+                </div>
+            </div>
             <div v-if="cartItem.length > 0">
                 <DataTable :value="cartItem" responsiveLayout="scroll">
                     <Column header="Image">
@@ -27,11 +32,6 @@
                     <Column header="Unit Price">
                         <template #body="slotProps">
                             {{ slotProps.data.price }}
-                            <!-- <div class="flex">
-                                <p class="mr-0.5" style="font-size:1.2rem;">৳</p>
-                                <p class="mt-1" v-if="slotProps.data.on_sale">{{slotProps.data.offer_price}}</p>
-                                <p class="mt-1" v-else>{{slotProps.data.sell_price}}</p>
-                            </div> -->
                         </template>
                     </Column>
                     <Column header="Quantity">
@@ -75,16 +75,10 @@
                             <div class="flex">
                                 <p class="mr-0.5" style="font-size:1.2rem;">৳</p>
                                 <p class="mt-1">{{ slotProps.data.price * slotProps.data.quantity }}</p>
-                                <!-- <p class="mt-1" v-if="slotProps.data.on_sale">{{ slotProps.data.offer_price * slotProps.data.quantity }}</p>
-                                <p class="mt-1" v-else>{{ slotProps.data.sell_price * slotProps.data.quantity }}</p> -->
                             </div>
                         </template>
                     </Column>
-
-                </DataTable> 
-                <!-- <div class="flex justify-end items-end mr-16 mt-8">
-                    <button class="button text-sm sm:text-base" @click="toCheckout()">CHECKOUT</button>
-                </div> -->
+                </DataTable>
             </div>
         </div>
     </div>
@@ -115,8 +109,14 @@ export default {
 
     mounted() {
         this.$store.dispatch('cart/getCart')
+        
+    },
+
+    watch: {
+       cart(oldValue, newValue) {
         this.cartItem = this.cart
         console.log(this.cartItem)
+       }
     },
 
     methods: {
@@ -125,12 +125,10 @@ export default {
         },
 
         increment(product) {
-            // product.quantity = product.quantity + qty;
             this.$store.dispatch('cart/updateCartQuantity', {product:product, qty:1})
         },
 
         decrement(product) {
-            // product.quantity = product.quantity + qty;
             this.$store.dispatch('cart/updateCartQuantity', {product:product, qty:-1})
         }
     }
