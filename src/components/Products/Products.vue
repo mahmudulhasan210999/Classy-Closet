@@ -18,7 +18,7 @@
                         </router-link>
 
                         <div class="flex justify-center pt-2">
-                            <p @click="addToCart(product)" class="w-1/3 border rounded-lg px-3 py-1 bg-gray-100 text-blue-500 hover:text-blue-800 pt-2 cursor-pointer">Add to Cart<i class="pi pi-shopping-cart icon pl-2"></i></p>
+                            <p @click="addToCart(product)" class="w-2/5 border rounded-lg px-3 py-1 bg-gray-100 text-blue-500 hover:text-blue-800 pt-2 cursor-pointer">Add to Cart<i class="pi pi-shopping-cart icon pl-2"></i></p>
                         </div>
                     </div>
                 </div>
